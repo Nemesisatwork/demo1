@@ -1,0 +1,76 @@
+.top1{
+    font-size: 100px;
+  color: #fff;
+  text-align: center;
+  padding-left: 200px;
+  padding-bottom: 30px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px black;, 0 0 70px black;, 0 0 80px black;
+  }
+}
+  
+  .bar{
+    width: 250pt;
+    font-size: 20pt;
+
+  }
+
+  a:hover{
+    color: cyan;
+    transition-duration: 0.5s;
+  }
+  
+  
+  .sidebar{
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, cyan, lightblue, white);
+    overflow-x: hidden;
+    padding-top: 10px;
+    color: black;
+  }
+  .main {
+    margin-left: 290px; 
+    background-image: linear-gradient(to right, white, orange);
+  }
+  
+  h1{
+    text-align: center;
+    color:Red;
+  }
+  #pic{
+    float: right;
+    padding-right: 7px;
+  }
+  
+  .content{
+    font-size: 16pt;
+  }
+  
+  .images{
+    font-size:20pt;
+    text-align="center";
+    color: black;
+  }
+  
+  .space{
+    background-color: lightcoral;
+    width: 309pt;
+    text-align: center;
+  }
+  
+  footer{
+    
+  }
